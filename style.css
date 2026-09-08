@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.731);
+    background-color: #f4f4f4;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+nav > h1{
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+header {
+    padding: 20px 40px;
+}
+nav ul a{
+    font-size: 1.2rem;
+}
+
+nav ul a:hover {
+    color: #8b4513;
+}
+
+.shop-now-button {
+    background-color: rgb(101, 40, 101);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}   
+.shop-now-button:hover {
+    background-color: #5f5957;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    
+}
+    /*padding: 60px 40px;
+    background-image:url(Images/laptop-spectre.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+#hero h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #8a0e84;
+}
+#hero h3{
+    font-size: 1.8rem;
+    line-height: ;
+
+}
+
+#hero h3 span{
+    color: #72346f;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+}
+.hero-button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+#hero a {
+    background-color: rgb(78, 30, 78);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#hero a:hover {
+    background-color: #94908f;
+}
+
+#about{
+    padding: 40px;
+    background-color: #7b5579;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.about-card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.731);
+}
+
+#products{
+    padding: 30px;
+    background-color: #2d2b2d;
+    color: #f4f4f4;
+}
+.product-items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.product-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.731);
+}
+.product-card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}

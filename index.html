@@ -13,7 +13,6 @@
 <body>
     <header>
         <nav>
-        <img src="" alt="">
         <h1>Webbie Technologies</h1>
         <ul>
             <li><a href="#">Home</a></li>
@@ -22,25 +21,35 @@
             <li><a href="#">Support</a></li>
             <li><a href="#">Contacts</a></li>
         </ul>
-        <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="shop-now-button">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-        <h2>NEXT-GEN GADGETS</h2>
-        <h3>TECH THAT EMPOWERS YOU EVERY DAY</h3>
+        <div>
+        <h2>⚡NEXT-GEN GADGETS</h2>
+        <h3>TECH THAT <br> <span>EMPOWERS</span><br> YOU EVERY DAY</h3>
 
         <p>Smart. Sleek. Seamless.</p>
         <p>Explore technology designed to elevate the way you live</p>
 
-        <a href="#">Explore Devices <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="hero button">
+        <a href="#" >Explore Devices <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" >Add to Cart <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        </div>
+        <div class="hero-image">
+            <img src="Images/spectrelaptop.jpg" alt="Spectre x 360 laptop">
+
+        </div>
         </section>
 
         <section id="about">
+            <div class="about-info">
             <h2>BUILT FOR THE FUTURE</h2>
 
-            <div>
+            
                 <article class="about-card">
                     <div class="about-icon">📦</div>
                     <h3>INNOVATIVE DESIGN</h3>
@@ -73,35 +82,35 @@
         </section>
 
         <section id="products">
-            <div product-items>
+            <div class="product-items">
             <h2>EXPLORE OUR TOP PICKS</h2>
 
             
                 <article class="product-card">
-                    <img src="" alt="">
-                    <h3>Oraimo Buds</h3>
-                    <span>$129</span>
+                    <img src="Images/s25phone.jpg" alt="Samsung Galaxy S25 32GB ">
+                    <h3>Galaxy S25 Phone</h3>
+                    <span>$1229</span>
                      <a href=""><i class="fa-solid fa-arrow-right"></i></a>
                 </article>
 
                 <article class="product-card">
-                    <img src="" alt="">
-                    <h3>Oraimo Buds</h3>
-                    <span>$129</span>
+                    <img src="Images/watch.webp" alt="engraved wwatch for men">
+                    <h3>Engraved Watch</h3>
+                    <span>$79</span>
                     <a href=""><i class="fa-solid fa-arrow-right"></i></a>
                 </article>
 
                 <article class="product-card">
-                    <img src="" alt="">
+                    <img src="Images/earpods.jpg" alt="Oraimo buds">
                     <h3>Oraimo Buds</h3>
                     <span>$129</span>
                      <a href=""><i class="fa-solid fa-arrow-right"></i></a>
                 </article>
 
                 <article class="product-card">
-                    <img src="" alt="">
-                    <h3>Oraimo Buds</h3>
-                    <span>$129</span>
+                    <img src="Images/laptop-spectre.jpg" alt="hp spectre x-360">
+                    <h3>HP X 360 Laptop</h3>
+                    <span>$2299</span>
                      <a href=""><i class="fa-solid fa-arrow-right"></i></a>
                 </article>
 
@@ -126,6 +135,7 @@
         </section>
 
         <section id="contact">
+
             <h2>Contact Us</h2>
              <p>Call Us</p>
              <p>📞 254703318383</p>
@@ -133,6 +143,38 @@
           
              <p>Email</p>
              <p> ✉ webbietechnologies.com</p>
+
+             <form action="">
+            <fieldset>
+              <legend>Customer Information</legend>
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+              </fieldset>
+
+              <label for="product-category">Product Category</label>
+              <select name="product-category" id="product-category" required>
+              <option value="" selected disabled>Select Product</option>
+              <option value="laptop">Laptop</option>
+              <option value="phone">Phone</option>
+              <option value="accessory">Accessory</option>
+              <option value="entertainment">Home Entertainment</option>
+              <option value="home-appliances">Home Appliances</option>
+            </select>
+            <label for="review">Review</label>
+            <textarea name="review" id="review" placeholder="Tell us your experience with us"></textarea>
+
+            <button type="submit">Complete Order</button>
+
+            </section>
+
+    </main>
+
 
 
 <footer>
@@ -157,13 +199,6 @@
 
 </footer>
 
-        </section>
 
-    </main>
-
-
-
-
-    
 </body>
 </html>
