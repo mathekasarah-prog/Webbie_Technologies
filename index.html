@@ -118,23 +118,28 @@
 
         </section>
         <section id="support">
-            <img src="" alt="">
+            <div class="support-info">
+            <img src="Images/enthusiastDaniel.jpeg" alt="Daniel our chief enthusiast">
+            
             <div>
             <h2>Webbie delivers more than just gadgets - it delivers experience.</h2>
             <p>Daniel Mwangi</p>
             <p>Tech Enthusiast</p>
             </div>
             <div>
-                <article>
+                <article class="join-us">
                     <h3>READY TO UPGRADE YOUR TECH?</h3>
                     <p>Join millions who trust Webbie for quality, innovation, and style</p>
                     <button type="button">JOIN WEBBIE FAMILY</button>
     
                 </article>
             </div>
+            </div>
         </section>
 
         <section id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
 
             <h2>Contact Us</h2>
              <p>Call Us</p>
@@ -143,8 +148,10 @@
           
              <p>Email</p>
              <p> ✉ webbietechnologies.com</p>
-
-             <form action="">
+             </div>
+            <div class="contact-form">
+                <h3>Make Order</h3>
+             <form id="ordering-form">
             <fieldset>
               <legend>Customer Information</legend>
             <label for="full-name">Full name</label>
@@ -157,6 +164,8 @@
             <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
               </fieldset>
 
+              <fieldset>
+              <legend>Product Details</legend>
               <label for="product-category">Product Category</label>
               <select name="product-category" id="product-category" required>
               <option value="" selected disabled>Select Product</option>
@@ -165,35 +174,40 @@
               <option value="accessory">Accessory</option>
               <option value="entertainment">Home Entertainment</option>
               <option value="home-appliances">Home Appliances</option>
-            </select>
+             </select>
+             </fieldset>
             <label for="review">Review</label>
-            <textarea name="review" id="review" placeholder="Tell us your experience with us"></textarea>
+            <textarea name="review" id="review" placeholder="Tell us your experience"></textarea>
 
             <button type="submit">Complete Order</button>
+            </form>
+            </div>
+            </div>
 
             </section>
-
-    </main>
+            </main>
 
 
 
 <footer>
     <div class="footer-container">
-        <h2>Webbie Technologies</h2>
+        <div class="footer-brand">
+        <a href="#">Webbie Technologies</a>
 
         <div class="footer-links">
             <h3>Quick Links</h3>
             <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
 
         </div>
 
 
+    </div>
     </div>
     <p>© 2026 Webbie Technologies. All rights reserved</p>
 

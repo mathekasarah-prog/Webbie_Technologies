@@ -153,3 +153,108 @@ nav ul a:hover {
     border-radius: 10px;
     object-fit: cover;
 }
+
+#support{
+    background-color: #72346f;
+    color: #f4f4f4;
+}
+.support-info{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.join-us{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.731);
+    height: 50vh;
+}
+
+
+
+
+#contact {
+    padding: 40px;
+    background-color: #fff;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.contact-info {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+form button {
+    background-color: rgb(101, 40, 101);;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-brand > a{
+    color: #cebbbb;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.footer p, .footer-links a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    list-style: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
