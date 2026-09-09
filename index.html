@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webbie Landing Page</title>
+    <title>Webbie Technologies</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,32 +14,32 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="main-navigation">
         <h1>Webbie Technologies</h1>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="#support">Support</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#" class="shop-now-button">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#products" class="shop-now-button">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-        <div>
-        <h2>⚡NEXT-GEN GADGETS</h2>
-        <h3>TECH THAT <br> <span>EMPOWERS</span><br> YOU EVERY DAY</h3>
+        <div class="hero-content">
+        <p class="eyebrow">⚡NEXT-GEN GADGETS</p>
+        <h2 id="hero-heading">TECH THAT <br> <span>EMPOWERS</span><br> YOU EVERY DAY</h2>
 
-        <p>Smart. Sleek. Seamless.</p>
+        <p class="hero-tagline">Smart. Sleek. Seamless.</p>
         <p>Explore technology designed to elevate the way you live</p>
 
-        <div class="hero button">
-        <a href="#" >Explore Devices <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" >Add to Cart <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="hero-button">
+        <a href="#products" >Explore Devices <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" >Add to Cart <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         </div>
         <div class="hero-image">
@@ -50,9 +49,13 @@
         </section>
 
         <section id="about">
-            <div class="about-info">
-            <h2>BUILT FOR THE FUTURE</h2>
-
+            <div class="about-heading">
+                <article class="about-card">
+                <p>WHY WEBBIE</p>
+                <h2 id="about-heading">BUILT FOR THE FUTURE</h2>
+                <p>Technology should make everyday life simpler, smarter, and more connected.</p>
+            </div>         
+                <div class="about-info">
             
                 <article class="about-card">
                     <div class="about-icon">📦</div>
@@ -81,13 +84,14 @@
                     <p>Advanced protection for your data and devices.</p>
 
                 </article>
-            </div>
-
+                </div>
+           
         </section>
 
         <section id="team">
-        <div>
-        <h2>MEET THE WEBBIE TEAM</h2>
+        <div class="team-intro">
+        <p class="eyebrow">OUR PEOPLE</p>
+        <h2 id="team-heading">MEET THE WEBBIE TEAM</h2>
         <p>Behind every great technology experience is a passionate team.
             At Webbie Technologies, our team combines technical knowledge,
             creativity, and customer-focused thinking to bring you innovative
@@ -199,10 +203,13 @@
         </section>
 
         <section id="products">
-            <div class="product-items">
-            <h2>EXPLORE OUR TOP PICKS</h2>
-
+            <div class="product-heading">
+            <p class="eyebrow">FEATURED COLLECTION</p>
+            <h2 id="products-heading">EXPLORE OUR TOP PICKS</h2>
+            <p>Discover carefully selected gadgets for work, entertainment, and everyday life.</p>
+            </div>
             
+            <div class="product-items">
                 <article class="product-card">
                     <img src="Images/s25phone.jpg" alt="Samsung Galaxy S25 32GB ">
                     <h3>Galaxy S25 Phone</h3>
@@ -250,11 +257,12 @@
             <img src="Images/enthusiastDaniel.jpeg" alt="Daniel our chief enthusiast">
             
             <div>
+            <p class="eyebrow">THE WEBBIE EXPERIENCE</p>
             <h2>Webbie delivers more than just gadgets - it delivers experience.</h2>
             <p>Daniel Mwangi</p>
-            <p>Tech Enthusiast</p>
+            <p>Chief Technology Enthusiast</p>
             </div>
-            <div>
+
                 <article class="join-us">
                     <h3>READY TO UPGRADE YOUR TECH?</h3>
                     <p>Join millions who trust Webbie for quality, innovation, and style</p>
@@ -262,21 +270,30 @@
     
                 </article>
             </div>
-            </div>
         </section>
 
         <section id="contact">
             <div class="contact-container">
                 <div class="contact-info">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2 id="contact-heading">Contact Us</h2>
 
-            <h2>Contact Us</h2>
-             <p>Call Us</p>
-             <p>📞 254703318383</p>
-
-          
-             <p>Email</p>
-             <p> ✉ info@webbietechnologies.com</p>
-             </div>
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>📞+254 703 318 383</p>
+                        </div>
+                    </div>    
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@webbietechnologies.com</p>
+                        </div>
+                    </div>
+                </div>
+             
             <div class="contact-form">
                 <h3>Make Order</h3>
              <form id="ordering-form">
@@ -310,40 +327,48 @@
             <button type="submit">Complete Order</button>
             </form>
             </div>
-            </div>
+        </div>
 
-            </section>
-            </main>
+        </section>
+    </main>
 
 
 
 <footer>
     <div class="footer-container">
         <div class="footer-brand">
-        <a href="#" aria-label="Webbie Technologies on Facebook">
-            <i class="fa-brands fa-facebook"></i>
-        </a>
+            <h2>Webbie Technologies</h2>
+           <p>Smart. Sleek. Seamless.</p>
+
+           <div class="footer-socials">
+                 <a href="#" ><i class="fa-brands fa-facebook" ></i></a>
+                 <a href="#" ><i class="fa-brands fa-instagram" ></i></a>
+                 <a href="#" ><i class="fa-brands fa-tiktok" ></i></a>
+            </div>
+        </div>   
 
         <div class="footer-links">
             <h3>Quick Links</h3>
             <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="#support">Support</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
-
         </div>
-
-
-    </div>
+        <div class="footer-links">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#products">Featured Gadgets</a></li>
+                    <li><a href="#contact">Place an Order</a></li>
+                    <li><a href="#support">Customer Support</a></li>
+                </ul>
+            </div>
     </div>
     <p>© 2026 Webbie Technologies. All rights reserved</p>
 
 </footer>
-
-
 </body>
 </html>

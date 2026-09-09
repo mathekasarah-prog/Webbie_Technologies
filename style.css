@@ -65,18 +65,7 @@ nav ul a:hover {
     gap: 40px;
     
 }
-    /*padding: 60px 40px;
-    background-image:url(Images/laptop-spectre.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
+    
 #hero h2 {
     font-size: 1rem;
     margin-bottom: 20px;
@@ -84,7 +73,7 @@ nav ul a:hover {
 }
 #hero h3{
     font-size: 1.8rem;
-    line-height: ;
+    line-height: 1.2;
 
 }
 
@@ -212,11 +201,13 @@ nav ul a:hover {
     background-color: #615c61;
     color: #f4f4f4;
 }
-.product-items{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+
+.product-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
+
 .product-card {
     padding: 20px;
     border-radius: 10px;
@@ -243,7 +234,6 @@ nav ul a:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.731);
-    height: 50vh;
 }
 .join-us:hover{
     color: #333;
@@ -288,9 +278,13 @@ form input, form select, form textarea {
     border: 1px solid #ccc;
 }
 
-form input:focus{
-    background-color: #5f5957;
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #7b5579;
+    outline: none;
 }
+
 form label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -323,6 +317,13 @@ footer {
     list-style: none;
     text-decoration: none;
 }
+
+footer p,
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
 .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -348,4 +349,42 @@ footer {
 }
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-items {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
 }
