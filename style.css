@@ -117,6 +117,12 @@ nav ul a:hover {
     background-color: #94908f;
 }
 
+#hero a:focus {
+    background-color: #2d2b2a;
+}
+
+
+
 #about{
     padding: 40px;
     background-color: #7b5579;
@@ -239,6 +245,12 @@ nav ul a:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.731);
     height: 50vh;
 }
+.join-us:hover{
+    color: #333;
+    transition: 0.15s;
+}
+
+
 
 
 
@@ -275,6 +287,10 @@ form input, form select, form textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+form input:focus{
+    background-color: #5f5957;
+}
 form label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -287,6 +303,12 @@ form button {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+form button:hover {
+    background-color: #94908f;
+}
+form button:focus {
+    background-color: #7b5579;
 }
 
 
