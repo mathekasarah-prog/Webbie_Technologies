@@ -1,5 +1,7 @@
 # Webbie Technologies
 
+
+
 ## 📱 About the Project
 
 **Webbie Technologies** is a modern, responsive technology and gadget showcase website designed to present innovative devices in a clean, engaging, and user-friendly way.
@@ -9,11 +11,6 @@ The website is designed around the idea that technology should be **smart, sleek
 The project was developed as a front-end web development project using **HTML5 and CSS3**, with additional resources such as Google Fonts and Font Awesome for typography and icons.
 
 ---
-
-
-<img width="670" height="764" alt="Screenshot 2026-09-12 130406" src="https://github.com/user-attachments/assets/9ce021b2-a593-4e47-82de-27ed9e176151" />
-
-<img width="670" height="764" alt="Screenshot 2026-09-12 130443" src="https://github.com/user-attachments/assets/832b1f28-bbf4-45c7-be87-4c7ef8be20aa" />
 
 
 
@@ -66,6 +63,8 @@ It includes:
 The hero section uses a responsive two-column layout on larger screens and changes to a single-column layout on smaller screens.
 
 ---
+<img width="670" height="764" alt="Screenshot 2026-09-12 134613" src="https://github.com/user-attachments/assets/4275f086-e31b-4774-b0d4-d3cd2a0feba0" />
+
 
 ### 💡 About Webbie
 
@@ -80,7 +79,8 @@ Each value is presented using an individual card with an icon, heading, and desc
 
 The cards also include hover effects to create a more interactive experience.
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 134806" src="https://github.com/user-attachments/assets/2e91a598-8047-4f9b-9757-cf4e2c70a397" />
+
 
 ### 👥 Team Section
 
@@ -103,7 +103,8 @@ Each team member has:
 
 The team cards use circular profile images, shadows, borders, and hover animations.
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 134902" src="https://github.com/user-attachments/assets/bfdd08c1-de36-40ef-96fe-bff36a07674f" />
+
 
 ## 🛍️ Products Section
 
@@ -130,7 +131,8 @@ Each product card contains:
 
 The product section uses CSS Grid to create a responsive product layout.
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 134948" src="https://github.com/user-attachments/assets/2f249783-07d5-4737-94c7-1ce7c9c2d0bd" />
+
 
 ## 🤝 Support Section
 
@@ -145,7 +147,8 @@ The section includes:
 - Team member information
 - Call-to-action encouraging visitors to join the Webbie community
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 135037" src="https://github.com/user-attachments/assets/e4e097bf-24d6-4b66-b085-24fd3ab34dfc" />
+
 
 ## 📞 Contact & Order Section
 
@@ -187,7 +190,8 @@ The form also includes a review/experience textarea and a **Complete Order** but
 
 The form uses HTML validation such as `required` fields and appropriate input types such as `email` and `tel`.
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 135145" src="https://github.com/user-attachments/assets/dd993894-1765-4ef3-9035-4b06d6e9e60d" />
+
 
 ## 🦶 Footer
 
@@ -204,7 +208,8 @@ The footer contains:
 
 The footer provides another way for users to navigate through the website.
 
----
+---<img width="670" height="764" alt="Screenshot 2026-09-12 135236" src="https://github.com/user-attachments/assets/56677e89-9b37-4e61-848e-7c4da7c34cf3" />
+
 
 # 🛠️ Technologies Used
 
