@@ -1,155 +1,169 @@
-# ⚡ Webbie Technologies Landing Page
+# Webbie Technologies
 
-A modern and responsive landing page for **Webbie Technologies**, a fictional technology company specializing in next-generation gadgets and electronic devices.
+## 📱 About the Project
 
-The project was created using **HTML5 and CSS3**, with a focus on creating a clean, modern interface using **CSS Grid and Flexbox** for page layout and responsive positioning.
+**Webbie Technologies** is a modern, responsive technology and gadget showcase website designed to present innovative devices in a clean, engaging, and user-friendly way.
 
----
+The website is designed around the idea that technology should be **smart, sleek, seamless, and accessible**. It introduces visitors to Webbie Technologies, highlights the company's values and team, showcases featured products, provides customer support information, and allows customers to submit an order enquiry.
 
-## 📌 Project Overview
-
-The Webbie Technologies Landing Page is designed to showcase a technology brand and its products in an attractive and user-friendly way.
-
-The website introduces visitors to Webbie Technologies, highlights the company's key values, displays featured products, provides customer support information, and includes an order/contact form.
-
-The main goal of the project was to practice building a complete webpage layout using semantic HTML and modern CSS layout techniques.
+The project was developed as a front-end web development project using **HTML5 and CSS3**, with additional resources such as Google Fonts and Font Awesome for typography and icons.
 
 ---
 
-## 🎯 Project Objectives
 
-The main objectives of this project were to:
+<img width="670" height="764" alt="Screenshot 2026-09-12 130406" src="https://github.com/user-attachments/assets/9ce021b2-a593-4e47-82de-27ed9e176151" />
 
-- Build a complete landing page using HTML and CSS.
-- Practice using semantic HTML5 elements.
-- Create a structured webpage with multiple sections.
-- Use **CSS Flexbox** for flexible one-dimensional layouts.
-- Use **CSS Grid** for structured two-dimensional layouts.
-- Create visually appealing product cards.
-- Organize content into reusable sections and components.
-- Practice styling forms and form controls.
-- Create a consistent visual hierarchy.
-- Practice using images and icons in a webpage.
-- Create a responsive layout suitable for different screen sizes.
+<img width="670" height="764" alt="Screenshot 2026-09-12 130443" src="https://github.com/user-attachments/assets/832b1f28-bbf4-45c7-be87-4c7ef8be20aa" />
+
+
+
+## 🎯 Project Purpose
+
+The purpose of this project was to create a professional technology website that demonstrates my understanding of:
+
+- Semantic HTML
+- CSS styling and layout
+- Responsive web design
+- Flexbox
+- CSS Grid
+- Forms and form structure
+- Navigation
+- Accessibility
+- Image handling
+- Interactive hover effects
+- Responsive breakpoints
+- Web typography
+- User-friendly interface design
+
+The website provides users with a simple way to:
+
+- Learn about Webbie Technologies
+- Discover the company's values
+- Meet the Webbie team
+- Browse featured gadgets
+- Learn about the customer experience
+- Get in touch with the company
+- Submit an order enquiry
 
 ---
 
-## 🖥️ Website Sections
+## ✨ Features
 
-The website consists of the following main sections:
+### 🏠 Hero Section
 
-### 1. Navigation / Header
+The hero section introduces the Webbie Technologies brand with the message:
 
-The header contains:
+> "Tech That Empowers You Every Day"
 
-- Webbie Technologies brand name
-- Home navigation link
-- About navigation link
-- Products navigation link
-- Support navigation link
-- Contacts navigation link
-- Shop Now call-to-action button
+It includes:
 
-The navigation provides users with quick access to the main areas of the webpage.
-
----
-
-### 2. Hero Section
-
-The hero section is the main introduction to the website.
-
-It contains:
-
-- A technology-focused headline
-- A short marketing message
-- A description of the brand
-- Call-to-action buttons
+- A short introductory statement
+- A technology-focused tagline
 - A featured laptop image
+- An **Explore Devices** call-to-action
+- An **Add to Cart** call-to-action
 
-The main headline is:
-
-> TECH THAT EMPOWERS YOU EVERY DAY
-
-The section is designed to immediately communicate the purpose and personality of the Webbie Technologies brand.
+The hero section uses a responsive two-column layout on larger screens and changes to a single-column layout on smaller screens.
 
 ---
 
-### 3. About Section
+### 💡 About Webbie
 
-The About section introduces the main qualities and values of the Webbie Technologies products.
+The About section explains the company's philosophy and highlights four important values:
 
-It includes four feature cards:
+1. **Innovative Design**
+2. **Powerful Performance**
+3. **Seamless Connectivity**
+4. **Secure by Default**
 
-#### 📦 Innovative Design
+Each value is presented using an individual card with an icon, heading, and description.
 
-Products are designed with precision and a focus on the future.
-
-#### ⚡ Powerful Performance
-
-Technology is designed to provide high speed and efficiency.
-
-#### 🌐 Seamless Connectivity
-
-Products help users stay connected anywhere and anytime.
-
-#### 🔒 Secure by Default
-
-The brand emphasizes protection for customer data and devices.
-
-The cards are arranged using CSS layout techniques to create an organized and visually balanced section.
+The cards also include hover effects to create a more interactive experience.
 
 ---
 
-### 4. Products Section
+### 👥 Team Section
 
-The Products section showcases some of Webbie Technologies' featured products.
+The Team section introduces the people behind Webbie Technologies.
 
-The products include:
+The current team includes:
+
+- **Daniel Mwangi** — Chief Technology Enthusiast
+- **Grace Wanjiku** — Head of Customer Experience
+- **Brian Otieno** — Product & Innovation Specialist
+- **Aisha Njeri** — Digital & Brand Manager
+
+Each team member has:
+
+- Profile image
+- Name
+- Job title
+- Short biography
+- Social media icons
+
+The team cards use circular profile images, shadows, borders, and hover animations.
+
+---
+
+## 🛍️ Products Section
+
+The Products section showcases Webbie Technologies' featured gadgets.
+
+Current featured products include:
 
 | Product | Price |
 |---|---:|
-| Galaxy S25 Phone | $1229 |
+| Galaxy S25 Phone | $1,229 |
 | Engraved Watch | $79 |
 | Oraimo Buds | $129 |
-| HP X 360 Laptop | $2299 |
+| HP Spectre X 360 Laptop | $2,299 |
+| Sony Home Theater | $899 |
+| Samsung Fridge | $1,299 |
 
 Each product card contains:
 
 - Product image
 - Product name
 - Product price
-- Arrow/action icon
+- Product navigation button
+- Hover animation
 
-CSS Grid is used to organize the product cards into a structured layout.
-
----
-
-### 5. Support Section
-
-The Support section adds a human element to the website.
-
-It features:
-
-- A technology enthusiast image
-- A testimonial-style statement
-- Daniel Mwangi
-- Tech Enthusiast title
-- A call-to-action encouraging visitors to join the Webbie family
-
-The section also contains a call-to-action encouraging customers to upgrade their technology.
+The product section uses CSS Grid to create a responsive product layout.
 
 ---
 
-### 6. Contact / Order Section
+## 🤝 Support Section
 
-The Contact section allows customers to interact with the business and submit an order.
+The Support section introduces the Webbie customer experience.
 
-It includes contact information such as:
+It communicates the idea that Webbie Technologies provides more than just gadgets — it aims to provide a complete customer experience.
 
-- Phone number
-- Email address
+The section includes:
 
-It also contains an order form where customers can provide:
+- Team representative image
+- Customer experience message
+- Team member information
+- Call-to-action encouraging visitors to join the Webbie community
+
+---
+
+## 📞 Contact & Order Section
+
+The Contact section provides customers with ways to communicate with Webbie Technologies.
+
+### Contact Information
+
+**Phone:**
+
++254 703 318 383
+
+**Email:**
+
+info@webbietechnologies.com
+
+### Order Form
+
+The website contains an order form that collects:
 
 #### Customer Information
 
@@ -159,7 +173,9 @@ It also contains an order form where customers can provide:
 
 #### Product Information
 
-Customers can select a product category from:
+- Product category
+
+Available categories include:
 
 - Laptop
 - Phone
@@ -167,37 +183,36 @@ Customers can select a product category from:
 - Home Entertainment
 - Home Appliances
 
-The form also includes a review/feedback textarea and a submit button.
+The form also includes a review/experience textarea and a **Complete Order** button.
 
-HTML form validation is used through attributes such as:
-
-- `required`
-- `type="email"`
-- `type="tel"`
+The form uses HTML validation such as `required` fields and appropriate input types such as `email` and `tel`.
 
 ---
 
-### 7. Footer
+## 🦶 Footer
 
 The footer contains:
 
-- Webbie Technologies brand name
+- Webbie Technologies branding
+- Company tagline
+- Social media icons
 - Quick navigation links
+- Featured gadget links
+- Order link
+- Customer support link
 - Copyright information
 
-The copyright notice states:
-
-> © 2026 Webbie Technologies. All rights reserved.
+The footer provides another way for users to navigate through the website.
 
 ---
 
 # 🛠️ Technologies Used
 
-The project was built using the following technologies:
+The following technologies and resources were used to build this project:
 
 ### HTML5
 
-HTML5 was used to create the structure and content of the webpage.
+HTML5 was used to create the structure and content of the website.
 
 Semantic elements used include:
 
@@ -206,95 +221,117 @@ Semantic elements used include:
 - `<main>`
 - `<section>`
 - `<article>`
-- `<footer>`
 - `<form>`
 - `<fieldset>`
 - `<legend>`
+- `<footer>`
 
-Using semantic HTML helps make the structure of the webpage easier to understand and maintain.
+The project uses semantic structure to improve organization, accessibility, and readability.
 
 ---
 
 ### CSS3
 
-CSS3 was used to style the webpage and create the visual design.
+CSS3 was used to control:
 
-CSS was used for:
-
+- Layout
 - Colors
 - Typography
 - Spacing
-- Borders
-- Backgrounds
-- Images
-- Buttons
+- Responsive design
 - Cards
-- Alignment
-- Layout
-- Responsive styling
-
----
-
-### CSS Flexbox
-
-Flexbox was used to create flexible one-dimensional layouts.
-
-It was particularly useful for arranging elements such as:
-
-- Navigation items
-- Hero section content
 - Buttons
-- Support section content
-- Footer content
-- Other horizontally or vertically aligned elements
+- Images
+- Hover effects
+- Shadows
+- Borders
+- Form styling
 
-Flexbox made it easier to control the alignment and spacing of elements.
-
----
-
-### CSS Grid
-
-CSS Grid was used to create structured two-dimensional layouts.
-
-Grid was particularly useful for:
-
-- Product cards
-- Feature/about cards
-- Page sections requiring columns and rows
-
-Using Grid allowed the content to be organized into clean and consistent columns.
+The project uses both **Flexbox** and **CSS Grid** for layout.
 
 ---
 
 ### Font Awesome
 
-Font Awesome icons were used for interface elements such as arrow icons.
+Font Awesome is used for interface icons such as:
 
-For example:
-
-- Arrow icons on buttons
-- Product action arrows
-
-The project imports Font Awesome using a CDN.
+- Arrow icons
+- Phone
+- Email
+- Facebook
+- Instagram
+- TikTok
 
 ---
 
-# 📁 Project Structure
+### Google Fonts
 
-The project is organized approximately as follows:
+The project uses Google Fonts to improve the visual appearance and typography of the website.
 
-```text
-Webbie-Technologies/
-│
-├── index.html
-├── style.css
-│
-├── Images/
-│   ├── spectrelaptop.jpg
-│   ├── s25phone.jpg
-│   ├── watch.webp
-│   ├── earpods.jpg
-│   ├── laptop-spectre.jpg
-│   └── enthusiastDaniel.jpeg
-│
-└── README.md
+Fonts included in the project include:
+
+- Cormorant Garamond
+- Dancing Script
+- Lobster Two
+- Open Sans
+- Roboto
+
+---
+
+# 📱 Responsive Design
+
+The website was developed using a **mobile-first approach**.
+
+The CSS includes responsive breakpoints at:
+
+- `600px`
+- `900px`
+
+At smaller screen sizes, the website uses single-column layouts to improve readability and usability.
+
+At larger screen sizes:
+
+- Navigation changes to a horizontal layout
+- The hero section becomes a two-column layout
+- About cards expand into multiple columns
+- Team members are displayed in multiple columns
+- Products are displayed using a grid
+- The support section uses multiple columns
+- The contact section uses a two-column layout
+
+This allows the website to adapt to different devices and screen sizes.
+
+---
+
+# ♿ Accessibility
+
+Accessibility was considered throughout the development of the website.
+
+### Semantic HTML
+
+Semantic HTML elements were used to give the page a meaningful structure.
+
+### Image Alt Text
+
+Images include descriptive `alt` attributes to provide alternative text for users who cannot see the images.
+
+### Form Labels
+
+Form inputs are connected to their corresponding labels using `for` and `id` attributes.
+
+### Required Fields
+
+Important form fields use the `required` attribute to prevent incomplete submissions.
+
+### Keyboard Focus
+
+The website includes visible focus styles using:
+
+```css
+:focus-visible
+
+git clone <https://mathekasarah-prog.github.io/Webbie_Technologies/>
+
+cd Webbie-Technologies
+
+index.html
