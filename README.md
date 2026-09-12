@@ -330,6 +330,9 @@ The website includes visible focus styles using:
 ```css
 :focus-visible
 
+
+###Clone the repository
+
 git clone <https://mathekasarah-prog.github.io/Webbie_Technologies/>
 
 cd Webbie-Technologies
