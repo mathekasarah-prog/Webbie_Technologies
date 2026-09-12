@@ -318,7 +318,7 @@ form button {
 
 .social-links a:hover,
 .social-links a:focus-visible {
-    color: #8a0e84;;
+    color: #8a0e84;
     transform: translateY(-2px);
 }
 
@@ -408,7 +408,7 @@ form button {
 #support {
     padding: 70px 16px;
     background-color:#4e1e4e;
-    color: var(--white);
+    color: #ffffff;
 }
 
 .support-info {
